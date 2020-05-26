@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <title>
             serie A
         </title>
@@ -11,7 +17,7 @@
             body{
                 background-color: lightgray;
             }
-            th{
+            thead{
                 color: red;
             }
         </style>
@@ -23,60 +29,62 @@
 
         <h3>queste sono le prime cinque posizioni nel campionato 2019/2020</h3>
         <ol>
-            <li>Juventus</li>
-            <li>Lazio</li>
-            <li>Inter</li>
-            <li>Atalanta</li>
-            <li>Roma</li>
+            <b> <li>Juventus</li> </b>
+            <b> <li>Lazio</li> </b>
+            <b> <li>Inter</li> </b>
+            <b> <li>Atalanta</li> </b>
+            <b> <li>Roma</li> </b>
         </ol>
         <p>
             per altre informazioni sulla classifica <a href = "https://sport.sky.it/calcio/serie-a/classifica">clicca qui</a>
-
+            <table class="table table-sm" width=45%>
+                <thead>
+                  <tr>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Gol</th>
+                    <th scope="col">Squadra</th>
+                    <th scope="col">Nazionalità</th>
+                  
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr >
+                    <th scope="row">Immobile</th>
+                    <td>27</td><td>Lazio</td><td>Italia</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Ronaldo</th>
+                    <td>21</td><td>	Juventus</td><td>Portogallo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Lukaku</th>
+                    <td>17</td><td>Inter</td><td>Belgio</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Joao Pedro</th>
+                    <td>16</td><td>	Cagliari</td><td>Brasile</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Ilicic</th>
+                    <td>15</td><td>Atalanta	</td><td>Slovenia</td>
+                  </tr>
         </p>
         <p>questi sono i 5 giocatori che hanno segnato il maggior numero di gol durante il campionato</p>
-        <table border="4" >
-            <tr>
-                <th>NOME</th>
-                <th>GOL</th>
-                <th>SQUADRA</th>
-                <th>NAZIONALITA'</th>
 
-            </tr>
-            <tr>
-                <td>Immobile</td>
-                <td>27</td>
-                <td>Lazio</th>
-                <td>Italia</td>
-            </tr>
-            <tr>
-                <td>Ronaldo</td>
-                <td>21</td>
-                <td>Juventus</td>
-                <td>Portogallo</td>
-            </tr>
-            <tr>
-                <td>Lukaku</td>
-                <td>17</th>
-                <td>Inter</td>
-                <td>Belgio</td>
-            </tr>
-            <tr>
-                <td>Joao pedro</td>
-                <td>16</td>
-                <td>Cagliari</td>
-                <td>Brasile</td>
-            </tr>
-            <tr>
-                <td>Ilic</td>
-                <td>15</td>
-                <td>Atalanta</td>
-                <td>Slovenia</td>
-            </tr>
         </table>
         <p></p>
-        <img alt="logo serie A" src="https://www.radiobruno.it/wp-content/uploads/2018/09/serie-a-6.jpg" width="20%">
-        <a target="_blank" href="https://www.radiobruno.it/wp-content/uploads/2018/09/serie-a-6.jpg" ></a>
-    </body> 
+        <div class="card" style="width: 18rem;">
+            <img src="https://www.radiobruno.it/wp-content/uploads/2018/09/serie-a-6.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">SERIE A</h5>
+              <p class="card-text">questo sito ti porterà ad aver maggior informazione sulla serie A</p>
+              <a href="https://www.gazzetta.it/" class="btn btn-primary">Clicca qui</a>
+            </div>
+          </div>
+         
+
+    </body>
+    
 
 
 
